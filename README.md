@@ -63,7 +63,7 @@
 [Задача 5](https://github.com/SysoevAS/java2/blob/main/task5.java)
 
 ## Задача 6
-[Задача 6](https://github.com/SysoevAS/java2/blob/main/task6.java)
+[Задача 6](https://github.com/SysoevAS/java2/blob/main/Zad7.java)
 
 ## Задача 7
 [Задача 7](https://github.com/SysoevAS/java2/blob/main/task7.java)
@@ -111,7 +111,7 @@
 [Задача 21](https://github.com/SysoevAS/java2/blob/main/task21.java)
 
 ## Задача 22
-[Задача 22](https://github.com/SysoevAS/java2/blob/main/task22.java)
+[Задача 22](https://github.com/SysoevAS/java2/blob/main/Zad22.java)
 
 ## Задача 23
 [Задача 23](https://github.com/SysoevAS/java2/blob/main/task23.java)
@@ -156,7 +156,7 @@
 [Задача 36](https://github.com/SysoevAS/java2/blob/main/task36.java)
 
 ## Задача 37
-[Задача 37](https://github.com/SysoevAS/java2/blob/main/task37.java)
+[Задача 37](https://github.com/SysoevAS/java2/blob/main/Zad37.java)
 
 ## Задача 38
 [Задача 38](https://github.com/SysoevAS/java2/blob/main/task38.java)
