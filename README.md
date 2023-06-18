@@ -121,3 +121,66 @@
 
 ## Задача 25
 [Задача 25](https://github.com/SysoevAS/java2/blob/main/task25.java)
+
+## Задача 26
+[Задача 26](https://github.com/SysoevAS/java2/blob/main/task26.java)
+
+## Задача 27
+[Задача 27](https://github.com/SysoevAS/java2/blob/main/task27.java)
+
+## Задача 28
+[Задача 28](https://github.com/SysoevAS/java2/blob/main/task28.java)
+
+## Задача 29
+[Задача 29](https://github.com/SysoevAS/java2/blob/main/task29.java)
+
+## Задача 30
+[Задача 30](https://github.com/SysoevAS/java2/blob/main/task30.java)
+
+## Задача 31
+[Задача 31](https://github.com/SysoevAS/java2/blob/main/task31.java)
+
+## Задача 32
+[Задача 32](https://github.com/SysoevAS/java2/blob/main/task32.java)
+
+## Задача 33
+[Задача 33](https://github.com/SysoevAS/java2/blob/main/task33.java)
+
+## Задача 34
+[Задача 34](https://github.com/SysoevAS/java2/blob/main/task34.java)
+
+## Задача 35
+[Задача 35](https://github.com/SysoevAS/java2/blob/main/task35.java)
+
+## Задача 36
+[Задача 36](https://github.com/SysoevAS/java2/blob/main/task36.java)
+
+## Задача 37
+[Задача 37](https://github.com/SysoevAS/java2/blob/main/task37.java)
+
+## Задача 38
+[Задача 38](https://github.com/SysoevAS/java2/blob/main/task38.java)
+
+## Задача 39
+[Задача 39](https://github.com/SysoevAS/java2/blob/main/task39.java)
+
+## Задача 40
+[Задача 40](https://github.com/SysoevAS/java2/blob/main/task40.java)
+
+## Задача 41
+[Задача 41](https://github.com/SysoevAS/java2/blob/main/task41.java)
+
+## Задача 42
+[Задача 42](https://github.com/SysoevAS/java2/blob/main/task42.java)
+
+## Задача 43
+[Задача 43](https://github.com/SysoevAS/java2/blob/main/task43.java)
+
+## Задача 44
+[Задача 44](https://github.com/SysoevAS/java2/blob/main/task44.java)
+
+## Задача 45
+[Задача 45](https://github.com/SysoevAS/java2/blob/main/task45.java)
+
+## Задача 46
+[Задача 46](https://github.com/SysoevAS/java2/blob/main/task46.java)
