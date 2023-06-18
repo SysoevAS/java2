@@ -1,6 +1,3 @@
-import java.lang.Math;
-
-// Класс, описывающий треугольник
 class Triangle {
     protected double side1;
     protected double side2;
@@ -18,28 +15,31 @@ class Triangle {
 
     public double getArea() {
         // Используем формулу Герона для вычисления площади треугольника
-        double p = getPerimeter() / 2; // Полупериметр
-        return Math.sqrt(p * (p - side1) * (p - side2) * (p - side3));
+        double s = getPerimeter() / 2; // полупериметр
+        return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
     }
 }
 
-// Класс-наследник, определяющий прямоугольный треугольник
 class RightTriangle extends Triangle {
-    public RightTriangle(double side1, double side2) {
-        // В конструкторе прямоугольного треугольника задаем длины двух катетов
-        super(side1, side2, Math.sqrt(side1 * side1 + side2 * side2));
+    public RightTriangle(double side1, double side2, double side3) {
+        super(side1, side2, side3);
+    }
+
+    public boolean isRightTriangle() {
+        // Проверяем теорему Пифагора: квадрат гипотенузы равен сумме квадратов катетов
+        return (side1 * side1 + side2 * side2 == side3 * side3)
+                || (side1 * side1 + side3 * side3 == side2 * side2)
+                || (side2 * side2 + side3 * side3 == side1 * side1);
     }
 }
 
-// Пример использования классов
 public class task14 {
     public static void main(String[] args) {
         Triangle triangle = new Triangle(3, 4, 5);
-        System.out.println("Периметр треугольника: " + triangle.getPerimeter());
-        System.out.println("Площадь треугольника: " + triangle.getArea());
+        System.out.println("Perimeter: " + triangle.getPerimeter());
+        System.out.println("Area: " + triangle.getArea());
 
-        RightTriangle rightTriangle = new RightTriangle(3, 4);
-        System.out.println("Периметр прямоугольного треугольника: " + rightTriangle.getPerimeter());
-        System.out.println("Площадь прямоугольного треугольника: " + rightTriangle.getArea());
+        RightTriangle rightTriangle = new RightTriangle(5, 12, 13);
+        System.out.println("Is right triangle: " + rightTriangle.isRightTriangle());
     }
 }
