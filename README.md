@@ -45,3 +45,79 @@
  44. Разработать MVC-приложение арифметический калькулятор на основе Spring Boot. Применить шаблонизатор Thymeleaf. Все результаты вычисления должны сохраняться и выводиться из MySQL. 
 45. Разработка веб-MVC приложения на основе Spring Boot. Приложение должно генерировать последовательность из 1000 случайных чисел в диапазоне, заданном пользователем, и выводит эти числа на экран и вычисляет их среднее арифметическое.
 47. Разработать приложение для работы с локальной базой данных MySQL. Создайте базу данных мобильных телефонов (не менее 10 позиций), со следующими полями: производитель, модель, год выпуска, диагональ экрана. Напишите методы для выполнения запросов к базе данных. Все данные должны выводиться в консоли на экран.
+# Задачи на язык программирования Java
+
+## Задача 1
+[Задача 1](https://github.com/SysoevAS/java2/blob/main/task1.java)
+
+## Задача 2
+[Задача 2](https://github.com/SysoevAS/java2/blob/main/task2.java)
+
+## Задача 3
+[Задача 3](https://github.com/SysoevAS/java2/blob/main/task3.java)
+
+## Задача 4
+[Задача 4](https://github.com/SysoevAS/java2/blob/main/task4.java)
+
+## Задача 5
+[Задача 5](https://github.com/SysoevAS/java2/blob/main/task5.java)
+
+## Задача 6
+[Задача 6](https://github.com/SysoevAS/java2/blob/main/task6.java)
+
+## Задача 7
+[Задача 7](https://github.com/SysoevAS/java2/blob/main/task7.java)
+
+## Задача 8
+[Задача 8](https://github.com/SysoevAS/java2/blob/main/task8.java)
+
+## Задача 9
+[Задача 9](https://github.com/SysoevAS/java2/blob/main/task9.java)
+
+## Задача 10
+[Задача 10](https://github.com/SysoevAS/java2/blob/main/task10.java)
+
+## Задача 11
+[Задача 11](https://github.com/SysoevAS/java2/blob/main/task11.java)
+
+## Задача 12
+[Задача 12](https://github.com/SysoevAS/java2/blob/main/task12.java)
+
+## Задача 13
+[Задача 13](https://github.com/SysoevAS/java2/blob/main/task13.java)
+
+## Задача 14
+[Задача 14](https://github.com/SysoevAS/java2/blob/main/task14.java)
+
+## Задача 15
+[Задача 15](https://github.com/SysoevAS/java2/blob/main/task15.java)
+
+## Задача 16
+[Задача 16](https://github.com/SysoevAS/java2/blob/main/task16.java)
+
+## Задача 17
+[Задача 17](https://github.com/SysoevAS/java2/blob/main/task17.java)
+
+## Задача 18
+[Задача 18](https://github.com/SysoevAS/java2/blob/main/task18.java)
+
+## Задача 19
+[Задача 19](https://github.com/SysoevAS/java2/blob/main/task19.java)
+
+## Задача 20
+[Задача 20](https://github.com/SysoevAS/java2/blob/main/task20.java)
+
+## Задача 21
+[Задача 21](https://github.com/SysoevAS/java2/blob/main/task21.java)
+
+## Задача 22
+[Задача 22](https://github.com/SysoevAS/java2/blob/main/task22.java)
+
+## Задача 23
+[Задача 23](https://github.com/SysoevAS/java2/blob/main/task23.java)
+
+## Задача 24
+[Задача 24](https://github.com/SysoevAS/java2/blob/main/task24.java)
+
+## Задача 25
+[Задача 25](https://github.com/SysoevAS/java2/blob/main/task25.java)
