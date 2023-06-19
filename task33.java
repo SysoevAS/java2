@@ -1,32 +1,42 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
+
 public class task33 {
     public static void main(String[] args) {
-        try {
-            Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        int rows = 0;
+        int columns = 0;
 
+        try {
             System.out.print("Введите количество строк: ");
-            int rows = scanner.nextInt();
+            rows = scanner.nextInt();
 
             System.out.print("Введите количество столбцов: ");
-            int columns = scanner.nextInt();
+            columns = scanner.nextInt();
 
-            int[][] array = generateRandomArray(rows, columns);
+            if (rows <= 0 || columns <= 0) {
+                throw new IllegalArgumentException("Количество строк и столбцов должно быть положительным числом.");
+            }
+
+            List<List<Integer>> collection = generateRandomCollection(rows, columns);
 
             System.out.println("Сгенерированная коллекция:");
-            printArray(array);
+            printCollection(collection);
 
-            int max = array[0][0];
-            int min = array[0][0];
+            int max = collection.get(0).get(0);
+            int min = collection.get(0).get(0);
             int maxRow = 0;
             int maxColumn = 0;
             int minRow = 0;
             int minColumn = 0;
 
             for (int i = 0; i < rows; i++) {
+                List<Integer> row = collection.get(i);
                 for (int j = 0; j < columns; j++) {
-                    int value = array[i][j];
+                    int value = row.get(j);
                     if (value > max) {
                         max = value;
                         maxRow = i;
@@ -42,34 +52,33 @@ public class task33 {
 
             System.out.println("Максимальное значение: " + max + " (Индекс: [" + maxRow + "][" + maxColumn + "])");
             System.out.println("Минимальное значение: " + min + " (Индекс: [" + minRow + "][" + minColumn + "])");
-        }catch (Exception e) {
-            System.out.println("Ошибка: введены некорректные данные.");
+        } catch (Exception e) {
+            System.out.println("Ошибка: " + e.getMessage());
         }
-
     }
 
-    public static int[][] generateRandomArray(int rows, int columns) {
-        int[][] array = new int[rows][columns];
+    public static List<List<Integer>> generateRandomCollection(int rows, int columns) {
+        List<List<Integer>> collection = new ArrayList<>();
         Random random = new Random();
 
         for (int i = 0; i < rows; i++) {
+            List<Integer> row = new ArrayList<>();
             for (int j = 0; j < columns; j++) {
-                array[i][j] = random.nextInt(100);
+                row.add(random.nextInt(100));
             }
+            collection.add(row);
         }
 
-        return array;
+        return collection;
     }
 
-    public static void printArray(int[][] array) {
-        int rows = array.length;
-        int columns = array[0].length;
-
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
-                System.out.print(array[i][j] + "\t");
+    public static void printCollection(List<List<Integer>> collection) {
+        for (List<Integer> row : collection) {
+            for (Integer element : row) {
+                System.out.print(element + "\t");
             }
             System.out.println();
         }
     }
+
 }
